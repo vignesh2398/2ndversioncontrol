@@ -12,8 +12,8 @@ const { verifys } = require('../Function/verify');
 
 dotenv.config();
 /* GET home page. */
-router.get('/', function(req, res, next) {
-  //res.render('index', { title: 'Express' });
+router.get('/welcome', function(req, res) {
+  
   res.send("welcome");
 });
 
